@@ -11,3 +11,34 @@ h1 {
 .weather-article {
   font-family: sans-serif;
 }
+#weather-container article {
+  font-size: 8px;
+}
+#breaking-news {
+  background-color: rgb(10, 160, 30);
+  text-align: center;
+}
+
+.breaking-news-weather {
+  color: white;
+}
+
+#breaking-news > .breaking-news-weather {
+	color: white;
+}
+
+li {
+  list-style: none;
+  text-align: left;
+}
+#celebrity-news-container {
+  width: 700px;
+  height: 700px;
+  background-image: url(http://media.salon.com/2015/11/taylor_swift9.jpg);
+  background-repeat: repeat-y;
+  background-size: 200px, 200px;
+}
+#celebrity-news-container article {
+  color: white;
+  text-decoration: underline;
+}
